@@ -1,5 +1,3 @@
-//function rentMe (){
-
 var sedan = {
         type: "sedan",
         price: 40,
@@ -34,7 +32,6 @@ function rentalAvailability () {
      //doesn't work - console.log(sedan.rentSedan.sedan1());//"\n",suv.rentSuv(),"\n",sports.rentSports());
 }
 
-//}
 
 rentalAvailability();
 
