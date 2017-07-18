@@ -1,29 +1,32 @@
 var sedan = {
-        type: "sedan",
+        type: "Sedan",
         price: 40,
         available: "yes",
+        numAvail: 5,
         rentSedan: function sedan1 () {
             //this.price = this.price - x;
             //console.log(this.price);
-            return this.type + " " + this.price + " " + this.available;
+            return "Car type: " + this.type + " " + "Rental Price: $" + this.price + " " + "Available: " + this.available + " " + "#Available: " + this.numAvail;
         }
     };
     
     var suv = {
-        type: "suv",
+        type: "Suv",
         price: 55,
         available: "no",
+        numAvail: 0,
         rentSuv: function suv1 () {
-            return this.type + " " + this.price + " " + this.available;
+            return "Car type: " + this.type + " " + "Rental Price: $" + this.price + " " + "Available: " + this.available + " " +"#Available: " + this.numAvail;
         }
     };
     
     var sports = {
-        type: "sports",
+        type: "Sports",
         price: 75,
         available: "yes",
+        numAvail: 2,
         rentSports: function sports1 () {
-            return this.type + " " + this.price + " " + this.available;
+            return "Car type: " + this.type + " " + "Rental Price: $" + this.price + " " + "Available: " + this.available + " " +"#Available: " + this.numAvail;
         }
     };
 
